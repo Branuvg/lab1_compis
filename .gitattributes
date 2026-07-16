@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+commands/antlr text eol=lf
+commands/grun text eol=lf
+python-venv.sh text eol=lf
+Dockerfile text eol=lf
