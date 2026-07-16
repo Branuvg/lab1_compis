@@ -119,3 +119,7 @@ El flujo es el pipeline estándar de ANTLR en tiempo de ejecución:
 5. **`parser.prog()`**: invoca la **regla inicial** de la gramática (debe coincidir con alguna regla del parser; en este caso `prog`, la raíz definida en la gramática) y devuelve el árbol sintáctico (`ParseTree`) resultante.
 
 `Driver.py` no imprime nada por sí mismo: solo construye el árbol. Por defecto, ANTLR usa el `DefaultErrorListener`, que **escribe los errores léxicos y sintácticos a stderr automáticamente** sin necesidad de código adicional — por eso el laboratorio indica que si el programa es correcto no se ve ninguna salida, y si hay errores, ANTLR los reporta solo. Si se quisiera hacer algo con el árbol (imprimirlo, recorrerlo, evaluarlo), habría que agregar un Visitor o Listener explícito — eso es justamente lo que se hará más adelante en el curso.
+
+## 📹 Video de Referencia
+
+[Video explicativo del laboratorio](https://youtu.be/kfx1FmLxosc)
